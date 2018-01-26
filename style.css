@@ -1,0 +1,52 @@
+#battery {
+	width: 98px;
+	height: 50px;
+	background-color: transparent;
+	margin: 50px;
+	border-top:0.1px black solid;
+	border-bottom:0.1px black solid;
+	position: absolute;
+}
+#edge {
+	width: 20px;
+	height: 50px;
+	background-color: transparent;
+	border-left:1.5px black solid;
+	border-right:0.5px black solid;
+	border-radius: 50%;
+	margin: 0px -11.5px;
+	position: absolute;
+}
+#edge:after {
+	content:'';
+	width: 20px;
+	height: 50px;
+	background-color: transparent;
+	border-left:1.5px black solid;
+	border-right:0.5px black solid;
+	border-radius: 50%;
+	margin: 0px 98px;
+	position: absolute;
+	z-index: 1;
+}
+#plusElectrod {
+	height: 13px;
+	width: 5px;
+	background-color:inherit;
+	margin: 17.5px 98.5px;
+	border-radius: 50%;
+	border-right: 0.5px solid black;
+	border-left: 1px solid black;
+	position: absolute;
+	z-index: 1;
+}
+/*#ff6600 - оранжевый*/
+.part {
+	width: 20px;
+	height: 50px;
+	background-color:#20a4d2;
+	border-left:0.5px black solid;
+	border-right:0.1px black solid;
+	border-radius: 50%;
+	position: absolute;
+}
